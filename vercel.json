@@ -1,4 +1,8 @@
-{
+"functions": {
+    "app/api/**/*.js": {
+      "maxDuration": 10
+    }
+  }{
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
