@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Pet Diary - O Primeiro Diário Inteligente para Pets</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Smart Pet Diary - O primeiro diário inteligente que prevê a saúde do seu pet com IA preventiva, cuidado 24/7 e rastreamento GPS. Mantenha seu pet saudável e seguro." />
+    <meta name="keywords" content="pet, saúde animal, inteligência artificial, rastreamento GPS, cuidados veterinários, diário pet, monitoramento pet" />
+    <meta name="author" content="Smart Pet Diary" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://smartpetdiary.vercel.app/" />
+    <meta property="og:title" content="Smart Pet Diary - O Primeiro Diário Inteligente para Pets" />
+    <meta property="og:description" content="Preveja a saúde do seu pet com IA preventiva, cuidado 24/7 e rastreamento GPS. A solução completa para cuidados com pets." />
+    <meta property="og:image" content="https://smartpetdiary.vercel.app/og-image.jpg" />
+    <meta property="og:locale" content="pt_BR" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://smartpetdiary.vercel.app/" />
+    <meta property="twitter:title" content="Smart Pet Diary - O Primeiro Diário Inteligente para Pets" />
+    <meta property="twitter:description" content="Preveja a saúde do seu pet com IA preventiva, cuidado 24/7 e rastreamento GPS." />
+    <meta property="twitter:image" content="https://smartpetdiary.vercel.app/og-image.jpg" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://smartpetdiary.vercel.app/" />
+    <script type="module">
+      if (import.meta.hot?.on) {
+        import.meta.hot.on('vite:error', (error) => {
+          if (error.err) {
+            console.error(
+              [error.err.message, error.err.frame].filter(Boolean).join('\n'),
+            )
+          }
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
